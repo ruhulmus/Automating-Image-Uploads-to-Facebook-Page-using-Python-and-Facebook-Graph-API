@@ -48,7 +48,7 @@ def schedule_posts_with_unpublished_photos(page_id, page_access_token, message, 
 # Replace with your actual values
 
 page_id = 'YOUR_PAGE_ID'
-access_token = 'YOUR_ACCESS_TOKEN'
+page_access_token = 'YOUR_ACCESS_TOKEN'
 message = 'Your message goes here'
 photo_urls = [
     'https://example.com/photo1.jpg',

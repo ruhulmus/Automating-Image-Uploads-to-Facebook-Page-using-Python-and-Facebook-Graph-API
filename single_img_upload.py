@@ -25,9 +25,6 @@ def post_single_photo(page_id, page_access_token, message, photo_url):
 page_id = 'YOUR_PAGE_ID'
 page_access_token = 'YOUR_ACCESS_TOKEN'
 message = 'Your message goes here'
-photo_urls = [
-    'https://example.com/photo1.jpg',
-    'https://example.com/photo2.jpg',
-]
+photo_url = 'https://example.com/your-photo.jpg'
 
 post_single_photo(page_id, page_access_token, message, photo_url)
